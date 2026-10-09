@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "oxc.oxc-vscode",
+        "oven.bun-vscode",
+        "typescriptteam.native-preview"
+    ]
+}

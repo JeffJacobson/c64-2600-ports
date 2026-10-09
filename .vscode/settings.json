@@ -1,4 +1,5 @@
 {
     "js/ts.experimental.useTsgo": true,
-    "oxc.enable.oxlint": true
+    "oxc.enable.oxlint": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
 }

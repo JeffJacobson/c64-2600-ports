@@ -3,7 +3,7 @@ import type { BuildConfig } from "bun"
 
 await Bun.build({
     entrypoints: ['./index.html'],
-    outdir: './build',
+    outdir: './dist',
     target: "browser",
     compile: true,
     check: true
