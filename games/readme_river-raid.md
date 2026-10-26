@@ -4,12 +4,12 @@ A port of Activision's 1982 *River Raid* cartridge (programmed by Carol Shaw) to
 The original 2600 program runs (almost) unchanged on the C64's 6510; new C64 code takes over
 everything the 2600's hardware did: the display, the collisions, the controls and the sound.
 
-Version 1.0.
+Version 1.1.
 
 ## Play it
 
-The C64 version is `build\riverraid-1.0.prg`, also on the disk image `build\riverraid-1.0.d64`
-and as an EasyFlash cartridge, `build\riverraid-1.0.crt`.
+The C64 version is `build\riverraid-1.1.prg`, also on the disk image `build\riverraid-1.1.d64`
+and as an EasyFlash cartridge, `build\riverraid-1.1.crt`.
 On a real C64: `LOAD"RIVER RAID",8` then `RUN`. Type `LIST` first to see the credits and controls.
 
 ## Controls
@@ -101,9 +101,10 @@ its image is made then).
 
 ## Differences from the 2600
 
-* Colours are approximated from the 2600 NTSC palette to the C64's 16; two chosen by hand: the
-  land green (so the trees beside the houses, light green, show against it) and the road light
-  grey (in black and white it stays white, apart from the land).
+* Colours are approximated from the 2600 NTSC palette to the C64's 16; three chosen by hand: the
+  land green (so the trees beside the houses, light green, show against it), the road light
+  grey (in black and white it stays white, apart from the land), and the panel medium grey (so its
+  yellow digits stand out; in black and white the land is that grey too).
 * TIA sounds are approximated on the SID.
 * A bridge's explosion can show one colour fewer (its sprites can't hold them all).
 * The logo is two lines higher (its last lines would be in the C64's bottom border).
